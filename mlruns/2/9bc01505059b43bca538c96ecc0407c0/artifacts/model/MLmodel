@@ -1,0 +1,33 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.3.1
+model_uuid: a43d7e71b4db4bf2a1ea37078583c887
+run_id: 9bc01505059b43bca538c96ecc0407c0
+signature:
+  inputs: '[{"name": "COMPANY_KEY", "type": "integer"}, {"name": "COMPANY_ITEM_KEY",
+    "type": "integer"}, {"name": "BILLING_COUNTRY_KEY", "type": "integer"}, {"name":
+    "APPLE_YEAR", "type": "long"}, {"name": "APPLE_WEEK", "type": "long"}, {"name":
+    "STOCK_QUANTITY", "type": "double"}, {"name": "INVOICED_QUANTITY", "type": "double"},
+    {"name": "IN_TRANSIT_QUANTITY", "type": "double"}, {"name": "SALES_MIN_WINDOW",
+    "type": "double"}, {"name": "SALES_MAX_WINDOW", "type": "double"}, {"name": "SALES_MEAN_WINDOW",
+    "type": "double"}, {"name": "SALES_last_WINDOW", "type": "double"}, {"name": "lag1",
+    "type": "long"}, {"name": "lag2", "type": "long"}, {"name": "lag3", "type": "long"},
+    {"name": "lag4", "type": "long"}, {"name": "lag5", "type": "long"}, {"name": "lag6",
+    "type": "long"}, {"name": "lag7", "type": "long"}, {"name": "lag8", "type": "long"},
+    {"name": "lag9", "type": "long"}, {"name": "lag10", "type": "long"}, {"name":
+    "lag11", "type": "long"}, {"name": "lag12", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2023-11-03 21:37:34.129945'

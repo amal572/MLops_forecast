@@ -1,0 +1,31 @@
+{
+    "4": {
+        "date": "21/10/2023",
+        "COMPANY_KEY": "4",
+        "COMPANY_ITEM_KEY": "31379",
+        "BILLING_COUNTRY_KEY": "16",
+        "APPLE_WEEK_DATE": "21/10/2023",
+        "APPLE_YEAR": "2024",
+        "APPLE_WEEK": "3",
+        "SELL_OUT_QUANTITY": "1035",
+        "STOCK_QUANTITY": "54.0",
+        "INVOICED_QUANTITY": "46800.0",
+        "IN_TRANSIT_QUANTITY": "235.8133199",
+        "SALES_MIN_WINDOW": "-194634.0",
+        "SALES_MAX_WINDOW": "2835894.0",
+        "SALES_MEAN_WINDOW": "2088.72558040324",
+        "SALES_last_WINDOW": "210.0",
+        "lag1": "1035",
+        "lag2": "1035",
+        "lag3": "1035",
+        "lag4": "1035",
+        "lag5": "1035",
+        "lag6": "1035",
+        "lag7": "1035",
+        "lag8": "1035",
+        "lag9": "1035",
+        "lag10": "1035",
+        "lag11": "1035",
+        "lag12": "1035"
+    }
+}

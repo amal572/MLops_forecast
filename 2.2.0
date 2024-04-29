@@ -1,0 +1,2 @@
+Requirement already satisfied: Werkzeug in c:\users\amal.h\appdata\local\anaconda\envs\mlflow\lib\site-packages (3.0.1)
+Requirement already satisfied: MarkupSafe>=2.1.1 in c:\users\amal.h\appdata\local\anaconda\envs\mlflow\lib\site-packages (from Werkzeug) (2.1.3)
